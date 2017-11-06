@@ -11,7 +11,7 @@
 
 
   <body>
-    <header id="home">
+    <header id="home" class="clearfix">
       <h1>Student Name</h1>
       <nav class="main-nav">
         <ul>
@@ -22,36 +22,36 @@
         </ul>
       </nav>
       <img src="images/responsive-layout-profile.png" alt="My profile picture" class="profile-img">
-      <p>Hi! I am front end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+      <p class="profile-text">Hi! I am front end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </header>
     <main id="portfolio">
       <h2>PORTFOLIO</h2>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-1.png" alt="Marketing page screen" class="portfolio-img">
         <h3>Marketing Page</h3>
         <p>This project shows the front page of a marketingwebsite meant for a specific business I'm interested in.</p>
       </div>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-2.png" alt="Search page screen" class="portfolio-img">
         <h3>Search Page</h3>
         <p>This project searches through a specific database to find information that the user is trying to look up.</p>
       </div>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-3.png" alt="Travel app screen" class="portfolio-img">
         <h3>Travel App</h3>
         <p>This project compares travel times based on different transportation method and tells you the best one.</p>
       </div>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-4.png" alt="Map screen" class="portfolio-img">
         <h3>Map of Favorite Spot</h3>
         <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
       </div>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-5.png" alt="Photo gallery screen" class="portfolio-img">
         <h3>Photo Gallery</h3>
         <p>This project show pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
       </div>
-      <div>
+      <div class="portfolio-part">
         <img src="images/portfolio-6.png" alt="Calculator screen" class="portfolio-img">
         <h3>Calculator</h3>
         <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
@@ -74,8 +74,17 @@
       <p>Email <span class="email">email@yoursite.com</span></p>
       <div class="footer-bottom clearfix">
         <h4>Ismat Valiyev</h4>
-        <a href="#home">BACK TO TOP</a>
+        <a href="#home" class="back-to-top">BACK TO TOP</a>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
+
     </footer>
 
   </body>

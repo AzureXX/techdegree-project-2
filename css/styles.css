@@ -85,34 +85,107 @@ footer {
 }
 
 .footer-bottom {
-  display:inline-block;
   border-top: 1px solid lightgrey;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 .footer-bottom h4{
-  display:inline-block;
-  margin-right: 130px;
-
+  float:left;
+  margin-left: 10px;
 }
 
 .footer-bottom a{
-  display:inline-block;
-  text-align: right;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  float: right;
+  margin-right: 10px;
   color:black;
   font-size: 1em;
   text-decoration: none;
   font-weight: bold;
 }
 
+.footer-nav {
+  display: none;
+}
 
 /* Media Query for tablets */
 @media (min-width: 768px) {
 
+  .back-to-top {
+    display:none;
+  }
+  /*Header*/
+  h1 {
+    margin-top: 1em;
+  }
+  .main-nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+  }
+
+  .profile-img {
+    float:right;
+    width: 50%;
+    margin-right: 2em;
+  }
+
+  .profile-text {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 2em;
+  }
+  /* Portfolio*/
+  .portfolio-part {
+    display: inline-block;
+    width: 49%;
+    font-size: 1.6em;
+  }
+
+  /*footer*/
+
+
+  footer p {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+  }
+
+  footer {
+    padding-bottom: 2em;
+  }
+
+  h4 {
+    display: inline;
+    font-size: 1.5em;
+    float: left;
+  }
+
+  .footer-bottom {
+      padding-top: 1.5em;
+  }
+
+  .footer-nav {
+    display: inline;
+  }
+
+  .footer-nav li {
+    display:inline;
+  }
+
+  .footer-nav a {
+    display: inline;
+    float: right;
+    color:black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
+
+
+
+
 
 
 /* Media Query for Desktops*/
