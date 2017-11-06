@@ -1,0 +1,130 @@
+/*General Styles*/
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+  font-family: "Slabo", sans-serif;
+}
+body {
+
+  text-align: center;
+}
+
+p,
+h2,
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+/*Header part*/
+header {
+    background-color: #fafafa;
+    padding-bottom: 1em;
+}
+
+
+.main-nav {
+  display: block;
+
+}
+h1 {
+  font-size: 2em;
+}
+
+.main-nav a{
+    display:block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: lightgrey;
+}
+
+.profile-img {
+  margin: 15px auto;
+  width: 70%
+}
+
+/*Portfolio Part*/
+main {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.portfolio-img {
+  width: 90%;
+  margin: auto;
+}
+
+main p{
+  color:purple;
+}
+
+#skills {
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*Footer*/
+
+footer {
+  font-family: "Merriweather", serif;
+  background-color: #fafafa;
+  padding-top: 1em;
+}
+
+.phone-no,
+.email {
+  font-weight: bold;
+}
+
+.footer-bottom {
+  display:inline-block;
+  border-top: 1px solid lightgrey;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer-bottom h4{
+  display:inline-block;
+  margin-right: 130px;
+
+}
+
+.footer-bottom a{
+  display:inline-block;
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:black;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Media Query for tablets */
+@media (min-width: 768px) {
+
+}
+
+
+/* Media Query for Desktops*/
+@@media (min-width: 1024px) {
+
+}
+
+
+/*Clearfix*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
