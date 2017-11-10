@@ -161,19 +161,26 @@ footer {
 
   .footer-bottom {
       padding-top: 1.5em;
+      margin: 0em 3em;
   }
 
   .footer-nav {
     display: inline;
+
+  }
+
+  .footer-nav ul{
+    float: right;
   }
 
   .footer-nav li {
     display:inline;
+
   }
 
   .footer-nav a {
     display: inline;
-    float: right;
+
     color:black;
     font-size: 1.5em;
     text-decoration: none;
@@ -189,7 +196,33 @@ footer {
 
 
 /* Media Query for Desktops*/
-@@media (min-width: 1024px) {
+
+@media (min-width: 1024px) {
+  /* Portfolio*/
+  .portfolio-part {
+    display: inline-block;
+    width: 30%;
+    font-size: 1.6em;
+  }
+
+  .header-top {
+    display: inline-block;
+    width: 100%;
+  }
+
+  h1 {
+    display: inline-block;
+    float: left;
+    margin: 1em 2em;
+  }
+
+  .main-nav ul li{
+    display: inline-block;
+    float:right;
+    margin: 2em 2em 2em 1em;
+  }
+
+
 
 }
 
